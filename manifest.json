@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Title Scraper Extension",
+    "version": "1.0",
+    "description": "Scrapes and displays the title of the current tab.",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "128": "icon128.png"
+      }
+    },
+    "icons": {
+      "128": "icon128.png"
+    }
+  }
+  
